@@ -1,0 +1,32 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;
+}
+
+.background {
+    background: url("../assets/hero-bg.jpg") no-repeat center fixed;
+}
+
+.feed {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.CardContainer {
+    padding: 20px;
+}
+
+.carousel-item {
+    max-height: 85vh;
+}
+
+.carousel-caption {
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}

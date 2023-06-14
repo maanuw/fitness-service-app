@@ -1,0 +1,52 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-style: bold;   
+}
+
+.background {
+    background: url("../assets/hero-bg.jpg") no-repeat center fixed;
+}
+
+.HeroImage {
+    background: url("../assets/hero_image.png") no-repeat center;
+    background-size: contain;
+    height:100vh;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.TextContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HeroText {
+    display:inline-block;
+    text-align: left;
+}
+
+.HeroText > h1 {
+    color: white;
+}
+
+.HeroText > h3 {
+    color: white;
+}
+
+.HeroText>h6 {
+    color: white;
+}
+
+.landing-slogan {
+    background-color: orange;
+    font-size: 30px;
+    text-align: center;
+    max-width: fit-content;
+}

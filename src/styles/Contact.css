@@ -1,0 +1,61 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.pg-background {
+    background: url("../assets/contact.jpg") no-repeat right fixed;
+    height: 100vh;
+    background-size: contain;
+    object-fit: cover;
+    background-color:white;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-card {
+    margin-top: 20%;
+    align-items: center;
+    justify-content: center;
+    min-width: 75%;
+    min-height: 75%;
+
+}
+
+.contact-form-title {
+    font-size: 30px;
+    padding: 35px;
+}
+
+.fn-col {
+    padding: 20px;
+    min-width: 80%;
+}
+
+.ln-col {
+    padding: 20px;
+}
+
+.e-col {
+    padding: 20px;
+}
+
+.com-col {
+    padding: 20px;
+}
+
+.but-col {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

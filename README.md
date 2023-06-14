@@ -1,3 +1,10 @@
+# Student Details
+
+- Name : Manav Patel
+- Student Number: 300074687
+- Link to production site: https://64896abe0e73226f93ea549e--cosmic-begonia-5be845.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
